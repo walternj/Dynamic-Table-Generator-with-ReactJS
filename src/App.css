@@ -1,0 +1,53 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  background-color: #606060;
+  color: #f1f1f1
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+label {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+input + label {
+  margin-top: 10px;
+}
+
+input {
+  width: 100px;
+  font-size: 22px;
+}
+
+table {
+  width: fit-content;
+  max-width: 90%;
+  border-collapse: collapse;
+  margin-top: 25px;
+}
+
+tr {
+  height: 28px;
+
+}
+
+td:focus {
+  background-color: #f1f1f1;
+}
+
+td {
+  border: 2px solid #101010;
+  column-width: 50px;
+}
+
+
+
